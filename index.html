@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="/mobile/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banner of Truth</title>
+      <style>
+          html, body {
+              margin: 0;
+              padding: 0;
+              background-color: white;
+          }
+
+          #app-loading {
+              display: flex;
+              align-items: center;
+              height: 100vh;
+              justify-content: center;
+              animation: pulse 3s ease-in-out infinite;
+              transition: opacity 0.3s ease;
+          }
+
+          #app-loading img {
+              width: 15%;
+          }
+
+          #app {
+              display: none; /* Hide app content until it's ready */
+          }
+
+          @keyframes pulse {
+              0%, 100% {
+                  opacity: 0.4;
+              }
+              50% {
+                  opacity: 0.2;
+              }
+          }
+      </style>
+    <script type="module" crossorigin src="/mobile/assets/index-Z6n1_rby.js"></script>
+  </head>
+  <body>
+      <div id="app-loading">
+          <img id="logo-img" src="/mobile/assets/BOT_logo_black-B9wmD7SG.png" alt="Loading..." width="150" height="150" />
+      </div>
+
+    <div id="app"></div>
+  </body>
+  <script>
+      setTimeout(() => {
+          const script = document.createElement('script');
+          script.type = 'module';
+          script.src = '/src/main.js';
+          document.body.appendChild(script); // or document.head.appendChild(script)
+      }, 1000); // 3 seconds delay
+
+      // When Vue app is mounted, hide loading screen
+      window.addEventListener('DOMContentLoaded', () => {
+          const checkReady = () => {
+              if (document.querySelector('#app').children.length > 0) {
+                  document.getElementById('app-loading').style.opacity = '0';
+                  setTimeout(() => {
+                      document.getElementById('app-loading').style.display = 'none';
+                      document.getElementById('app').style.display = 'block';
+                  }, 1000); // match transition duration
+              } else {
+                  requestAnimationFrame(checkReady);
+              }
+          };
+          checkReady();
+      });
+  </script>
+</html>
