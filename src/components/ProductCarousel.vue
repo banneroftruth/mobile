@@ -33,7 +33,7 @@ const aspectClass = computed(() => {
 })
 
 onMounted(async () => {
-  const response = await fetch("/src/data/" + props.source + ".json")
+  const response = await fetch("src/data/" + props.source + ".json")
   products.value = await response.json()
 })
 </script>

@@ -1,26 +1,26 @@
 [
   {
-    "image": "/src/assets/images/books/mag1.jpg",
+    "image": "src/assets/images/books/mag1.jpg",
     "title": "Valley of Vision",
     "progress": 45
   },
   {
-    "image": "/src/assets/images/books/mag2.jpg",
+    "image": "src/assets/images/books/mag2.jpg",
     "title": "Institutes of the Christian Religion",
     "progress": 37
   },
   {
-    "image": "/src/assets/images/books/mag3.jpg",
+    "image": "src/assets/images/books/mag3.jpg",
     "title": "Pilgrim's Progress",
     "progress": 23
   },
   {
-    "image": "/src/assets/images/books/mag4.jpg",
+    "image": "src/assets/images/books/mag4.jpg",
     "title": "Sermons of Robert Murray M‘Cheyne",
     "progress": 85
   },
   {
-    "image": "/src/assets/images/books/mag5.jpg",
+    "image": "src/assets/images/books/mag5.jpg",
     "title": "The Reformed Pastor",
     "progress": 64
   }
