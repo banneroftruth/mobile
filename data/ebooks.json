@@ -1,0 +1,27 @@
+[
+  {
+    "image": "src/assets/images/books/ValleyOfVision.jpg",
+    "title": "Valley of Vision",
+    "progress": 80
+  },
+  {
+    "image": "src/assets/images/books/Institutes.jpg",
+    "title": "Institutes of the Christian Religion",
+    "progress": 65
+  },
+  {
+    "image": "src/assets/images/books/Pilgrims.jpg",
+    "title": "Pilgrim's Progress",
+    "progress": 90
+  },
+  {
+    "image": "src/assets/images/books/sermonsmcheyne.jpg",
+    "title": "Sermons of Robert Murray M‘Cheyne",
+    "progress": 45
+  },
+  {
+    "image": "src/assets/images/books/ReformedPastor.jpg",
+    "title": "The Reformed Pastor",
+    "progress": 70
+  }
+]

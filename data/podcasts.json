@@ -1,0 +1,27 @@
+[
+  {
+    "image": "src/assets/images/books/pod1.jpg",
+    "title": "The Life of John Newton",
+    "progress": 45
+  },
+  {
+    "image": "src/assets/images/books/pod2.jpg",
+    "title": "Two Hymnwriters",
+    "progress": 37
+  },
+  {
+    "image": "src/assets/images/books/pod3.jpg",
+    "title": "Dying in the Lord (3/3): A Time to Die",
+    "progress": 23
+  },
+  {
+    "image": "src/assets/images/books/pod4.jpg",
+    "title": "Dying in the Lord (2/3): Preparation",
+    "progress": 85
+  },
+  {
+    "image": "src/assets/images/books/pod5.jpg",
+    "title": "Dying in the Lord (1/3): Perspective",
+    "progress": 64
+  }
+]
