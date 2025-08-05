@@ -1,0 +1,184 @@
+@font-face {
+    font-family: 'Albertus MT Pro';
+    src: url('./fonts/AlbertusMTPro-Italic.woff2') format('woff2');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Albertus Nova';
+    src: url('./fonts/AlbertusNova-Black.woff2') format('woff2');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Albertus Nova';
+    src: url('./fonts/AlbertusNova-Light.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Albertus Nova';
+    src: url('./fonts/AlbertusNova-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Albertus Nova';
+    src: url('./fonts/AlbertusNova-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Albertus Nova';
+    src: url('./fonts/AlbertusNova-Thin.woff2') format('woff2');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Minion Pro';
+    src: url('./fonts/MinionPro-BoldIt.woff2') format('woff2');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Minion Pro';
+    src: url('./fonts/MinionPro-It.woff2') format('woff2');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Minion Pro';
+    src: url('./fonts/MinionPro-BoldCn.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Minion Pro';
+    src: url('./fonts/MinionPro-BoldCnIt.woff2') format('woff2');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Minion Pro';
+    src: url('./fonts/MinionPro-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Minion Pro';
+    src: url('./fonts/MinionPro-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Minion Pro';
+    src: url('./fonts/MinionPro-MediumIt.woff2') format('woff2');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Minion Pro';
+    src: url('./fonts/MinionPro-SemiboldIt.woff2') format('woff2');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Minion Pro';
+    src: url('./fonts/MinionPro-Semibold.woff2') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Minion Pro';
+    src: url('./fonts/MinionPro-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'Futura Cyrillic';
+    src: url('./fonts/FuturaCyrillicHeavy.woff2') format('woff2');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura Cyrillic';
+    src: url('./fonts/FuturaCyrillicMedium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura Cyrillic';
+    src: url('./fonts/FuturaCyrillicLight.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura Cyrillic Extra';
+    src: url('./fonts/FuturaCyrillic-ExtraBold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura Cyrillic Book';
+    src: url('./fonts/FuturaCyrillicBook.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura Cyrillic';
+    src: url('./fonts/FuturaCyrillic-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura Cyrillic Demi';
+    src: url('./fonts/FuturaCyrillic-Demi.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}

@@ -1,0 +1,43 @@
+@import './base.css';
+@import './fonts.css';
+@import './headings.css';
+@import "./global.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#app {
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: #64121b;
+  transition: 0.4s;
+  padding: 3px;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+    place-items: center;
+  }
+
+  #app {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+
+.library-heading-item {
+  font-size: 1.25em;
+  margin-top: 1em;
+}
