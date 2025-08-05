@@ -9,40 +9,73 @@
           html, body {
               margin: 0;
               padding: 0;
+              height: 100%;
               background-color: white;
           }
 
           #app-loading {
               display: flex;
+              justify-content: center;
               align-items: center;
               height: 100vh;
-              justify-content: center;
-              animation: pulse 3s ease-in-out infinite;
+              background: white;
               transition: opacity 0.3s ease;
-          }
-
-          #app-loading img {
-              width: 15%;
+              position: relative;
           }
 
           #app {
-              display: none; /* Hide app content until it's ready */
+              display: none;
           }
 
-          @keyframes pulse {
-              0%, 100% {
-                  opacity: 0.4;
+          .logo-wrapper {
+              position: relative;
+              width: 150px;
+              height: 150px;
+              overflow: hidden;
+          }
+
+          #logo-img {
+              width: 100%;
+              height: 100%;
+              -o-object-fit: contain;
+                 object-fit: contain;
+              display: block;
+          }
+
+          /* Shimmer overlay */
+          .logo-wrapper::after {
+              content: '';
+              position: absolute;
+              top: 0;
+              left: -150%;
+              width: 200%;
+              height: 100%;
+              background: linear-gradient(
+                      -120deg,
+                      rgba(255, 255, 255, 0) 30%,
+                      rgba(255, 255, 255, 0.6) 50%,
+                      rgba(255, 255, 255, 0) 70%
+              );
+              animation: shimmer 2.5s infinite linear;
+              pointer-events: none;
+          }
+
+          @keyframes shimmer {
+              0% {
+                  transform: translateX(0);
               }
-              50% {
-                  opacity: 0.2;
+              100% {
+                  transform: translateX(100%);
               }
           }
       </style>
-    <script type="module" crossorigin src="/mobile/assets/index-Bg_bxwhC.js"></script>
+    <script type="module" crossorigin src="/mobile/assets/index-DcwXyzBo.js"></script>
   </head>
   <body>
       <div id="app-loading">
-          <img id="logo-img" height="150px" width="50px" src="/mobile/assets/BOT_logo_black-B9wmD7SG.png" alt="Loading..." width="150" height="150" />
+          <div class="logo-wrapper">
+              <img id="logo-img" alt="Loading..." />
+          </div>
       </div>
 
     <div id="app"></div>
@@ -53,17 +86,16 @@
           script.type = 'module';
           script.src = 'src/main.js';
           document.body.appendChild(script); // or document.head.appendChild(script)
-      }, 1000); // 3 seconds delay
+      }, 100000); // 3 seconds delay
 
       // When Vue app is mounted, hide loading screen
       window.addEventListener('DOMContentLoaded', () => {
           const checkReady = () => {
               if (document.querySelector('#app').children.length > 0) {
-                  document.getElementById('app-loading').style.opacity = '0';
                   setTimeout(() => {
                       document.getElementById('app-loading').style.display = 'none';
                       document.getElementById('app').style.display = 'block';
-                  }, 1000); // match transition duration
+                  }, 100000); // match transition duration
               } else {
                   requestAnimationFrame(checkReady);
               }
