@@ -86,7 +86,7 @@
           script.type = 'module';
           script.src = 'src/main.js';
           document.body.appendChild(script); // or document.head.appendChild(script)
-      }, 1000); // 3 seconds delay
+      }, 3000); // 3 seconds delay
 
       // When Vue app is mounted, hide loading screen
       window.addEventListener('DOMContentLoaded', () => {
@@ -95,7 +95,7 @@
                   setTimeout(() => {
                       document.getElementById('app-loading').style.display = 'none';
                       document.getElementById('app').style.display = 'block';
-                  }, 1000); // match transition duration
+                  }, 3000); // match transition duration
               } else {
                   requestAnimationFrame(checkReady);
               }
