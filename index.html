@@ -42,6 +42,16 @@
               display: block;
           }
 
+          img#logo-img {
+              transition: filter 0.3s ease;
+          }
+
+          @media (prefers-color-scheme: light) {
+              img#logo-img {
+                  filter: invert(1) hue-rotate(100deg);
+              }
+          }
+
           /* Shimmer overlay */
           .logo-wrapper::after {
               content: '';
@@ -69,7 +79,7 @@
               }
           }
       </style>
-    <script type="module" crossorigin src="/mobile/assets/index-eNe2Ve8D.js"></script>
+    <script type="module" crossorigin src="/mobile/assets/index-D_otAaMq.js"></script>
   </head>
   <body>
       <div id="app-loading">
