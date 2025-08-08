@@ -1,0 +1,42 @@
+[
+  {
+    "image": "images/books/audiobook-et-01.jpg",
+    "title": "Expository Thoughts: Matthew",
+    "progress": 100
+  },
+  {
+    "image": "images/books/audiobook-et-02.jpg",
+    "title": "Expository Thoughts: Mark",
+    "progress": 80
+  },
+  {
+    "image": "images/books/audiobook-et-03.jpg",
+    "title": "Expository Thoughts: Luke Part 1",
+    "progress": 90
+  },
+  {
+    "image": "images/books/audiobook-et-04.jpg",
+    "title": "Expository Thoughts: Luke Part 2",
+    "progress": 59
+  },
+  {
+    "image": "images/books/audiobook-et-05.jpg",
+    "title": "Expository Thoughts: John Part 1",
+    "progress": 49
+  },
+  {
+    "image": "images/books/audiobook-et-06.jpg",
+    "title": "Expository Thoughts: John Part 2",
+    "progress": 12
+  },
+  {
+    "image": "images/books/audiobook-et-07.jpg",
+    "title": "Expository Thoughts: John Part 3",
+    "progress": 3
+  },
+  {
+    "image": "images/books/audiobook-holiness-08.jpg",
+    "title": "Holiness",
+    "progress": 70
+  }
+]
