@@ -1,26 +1,61 @@
 [
   {
-    "image": "images/books/mag1.jpg",
+    "image": "images/magazines/202508.jpg",
     "title": "Valley of Vision",
     "progress": 45
   },
   {
-    "image": "images/books/mag2.jpg",
+    "image": "images/magazines/202507.jpg",
     "title": "Institutes of the Christian Religion",
     "progress": 37
   },
   {
-    "image": "images/books/mag3.jpg",
+    "image": "images/magazines/202506.jpg",
     "title": "Pilgrim's Progress",
     "progress": 23
   },
   {
-    "image": "images/books/mag4.jpg",
+    "image": "images/magazines/202505.jpg",
     "title": "Sermons of Robert Murray M‘Cheyne",
     "progress": 85
   },
   {
-    "image": "images/books/mag5.jpg",
+    "image": "images/magazines/202504.jpg",
+    "title": "The Reformed Pastor",
+    "progress": 64
+  },
+  {
+    "image": "images/magazines/202503.jpg",
+    "title": "The Reformed Pastor",
+    "progress": 64
+  },
+  {
+    "image": "images/magazines/202502.jpg",
+    "title": "The Reformed Pastor",
+    "progress": 64
+  },
+  {
+    "image": "images/magazines/202501.jpg",
+    "title": "The Reformed Pastor",
+    "progress": 64
+  },
+  {
+    "image": "images/magazines/202412.jpg",
+    "title": "The Reformed Pastor",
+    "progress": 64
+  },
+  {
+    "image": "images/magazines/202411.jpg",
+    "title": "The Reformed Pastor",
+    "progress": 64
+  },
+  {
+    "image": "images/magazines/202410.jpg",
+    "title": "The Reformed Pastor",
+    "progress": 64
+  },
+  {
+    "image": "images/magazines/202409.jpg",
     "title": "The Reformed Pastor",
     "progress": 64
   }
